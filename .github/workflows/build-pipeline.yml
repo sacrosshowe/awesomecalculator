@@ -2,6 +2,7 @@
 name: Awesome Calculator CI build
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
